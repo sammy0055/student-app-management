@@ -1,7 +1,6 @@
 const sgMail = require("@sendgrid/mail");
-sgMail.setApiKey(
-  "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"
-);
+require("dotenv").config();
+sgMail.setApiKey(process.env.SEND_GRID_SECRETKEY);
 
 const sendMail = (email, subject, phrase, res) => {
   let msg = {
