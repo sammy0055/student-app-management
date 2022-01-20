@@ -1,0 +1,48 @@
+{
+  "schools": [
+    { "id": 0, "school": "engineering" },
+    { "id": 1, "school": "bussness studies" },
+    { "id": 2, "school": "applied science" }
+  ],
+  "departments": [
+    { "id": 3, "department": "mechanical engineering" },
+    { "id": 4, "department": "computer engineering" },
+    { "id": 5, "department": "electrical engineering" },
+    { "id": 6, "department": "industrial maintenance" },
+    { "id": 7, "department": "welding & fabrication" },
+    { "id": 8, "department": "SLT" },
+    { "id": 9, "department": "OTM" },
+    { "id": 10, "department": "computer science" },
+    { "id": 11, "department": "bussness administration" },
+    { "id": 12, "department": "accountancy" },
+    { "id": 13, "department": "mass communication" }
+  ],
+  "programs": [
+    { "id": 14, "program": "ND" },
+    { "id": 15, "program": "HND" }
+  ],
+  "levels": [
+    { "id": 16, "level": "ND 1" },
+    { "id": 17, "level": "ND 2" },
+    { "id": 18, "level": "HND 1" },
+    { "id": 19, "level": "HND 2" }
+  ],
+  "sections": [
+    { "id": 20, "section": "1920" },
+    { "id": 21, "section": "2021" },
+    { "id": 22, "section": "2022" },
+    { "id": 23, "section": "2023" },
+    { "id": 24, "section": "2024" },
+    { "id": 25, "section": "2025" },
+    { "id": 26, "section": "2026" }
+  ],
+  "positions": [
+    { "id": 27, "position": "student" },
+    { "id": 28, "position": "courseAdviser" },
+    { "id": 29, "position": "hod" }
+  ],
+  "semesters": [
+    { "id": 30, "semester": "first" },
+    { "id": 31, "semester": "second" }
+  ]
+}

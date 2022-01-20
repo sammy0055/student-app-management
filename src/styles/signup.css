@@ -1,0 +1,57 @@
+.signup {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1500px;
+  display: flex;
+}
+
+.Leftside {
+  width: 40vw;
+  background-color: white;
+}
+
+.DB {
+  padding: 15%;
+}
+
+.DB-image {
+  width: 100%;
+}
+
+.DBpics {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Textfild {
+  background-color: #ffffff;
+  width: 60vw;
+}
+
+.SignUpBanner {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.boxme {
+  display: flex;
+}
+
+@media screen and (max-width: 425px) {
+  .signup {
+    margin: 0%;
+    flex-direction: column;
+  }
+  .Leftside {
+    width: 100%;
+    height: 100vh;
+  }
+  .Textfild {
+    width: 100%;
+  }
+ 
+}

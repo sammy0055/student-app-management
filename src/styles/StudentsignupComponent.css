@@ -1,0 +1,19 @@
+.TextFieldrap {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .TextFieldminirap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Pics_Btn{
+    display: flex;
+  }
+
+  @media screen and (max-width: 425px) {
+    .TextFieldrap{
+      flex-direction: column;
+    }
+  }

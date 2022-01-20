@@ -1,0 +1,12 @@
+.NavBarCourse {
+  width: 100%;
+}
+
+.Profilerbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.AvaterG{
+    display: flex;
+}

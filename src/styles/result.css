@@ -1,0 +1,23 @@
+.Img-cont {
+  width: 100px;
+  height: 100px;
+  background-color: wheat;
+}
+
+
+
+.Student-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.StudentData{
+   display: flex;
+}
+
+.ResultBanner{
+    display: flex;
+    justify-content: space-between;
+}
+

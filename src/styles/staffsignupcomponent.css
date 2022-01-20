@@ -1,0 +1,15 @@
+.Minirapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.Toprapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 425px) {
+  .Toprapper {
+    flex-direction: column;
+  }
+}
